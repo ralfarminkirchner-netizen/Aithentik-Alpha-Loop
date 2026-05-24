@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Home as HomeIcon, Zap, DollarSign, Activity, Settings, LayoutDashboard, ShoppingBag } from 'lucide-react';
+import React, { useState } from 'react';
+import { Zap, DollarSign, Activity, LayoutDashboard, ShoppingBag } from 'lucide-react';
 import CashScoreCalculator from './components/CashScoreCalculator';
 import OpportunityFlow from './components/OpportunityFlow';
 import ArchitectureVisualization from './components/ArchitectureVisualization';
@@ -8,7 +8,7 @@ import ListingVault from './components/ListingVault';
 
 const App: React.FC = () => {
     const [activeTab, setActiveTab] = useState('dashboard');
-    const [learningLog, setLearningLog] = useState<string[]>([
+    const [learningLog] = useState<string[]>([
         "✅ DNA-Verdichtung für 'Vaterkunst' abgeschlossen.",
         "🌐 Scout fand Etsy V3 API Spezifikationen.",
         "🌩️ Myzel-Resonanz zwischen 'Lasur' und 'UI-Layer' berechnet.",

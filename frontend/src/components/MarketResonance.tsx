@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrendingUp, Target, BarChart3, ArrowUpRight } from 'lucide-react';
+import { TrendingUp, Target, ArrowUpRight } from 'lucide-react';
 
 const MarketResonance: React.FC = () => {
     const trends = [

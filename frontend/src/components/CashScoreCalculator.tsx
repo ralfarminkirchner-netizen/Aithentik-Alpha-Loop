@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { DollarSign, TrendingUp, AlertCircle } from 'lucide-react';
-import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, Tooltip } from 'recharts';
+import { DollarSign, AlertCircle } from 'lucide-react';
+import { ResponsiveContainer, AreaChart, Area } from 'recharts';
 
 const data = [
     { name: 'Jan', val: 400 },

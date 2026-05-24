@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Cpu, GitBranch, Share2, Target } from 'lucide-react';
+import { ArrowRight, Cpu } from 'lucide-react';
 
 const OpportunityFlow: React.FC = () => {
     return (
