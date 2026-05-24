@@ -1,0 +1,15 @@
+qdrant-client
+ollama
+requests
+feedparser
+aiohttp
+loguru
+python-dotenv
+fastapi
+uvicorn
+pydantic
+streamlit
+pandas
+plotly
+numpy
+PyPDF2

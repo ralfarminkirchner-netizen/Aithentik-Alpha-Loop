@@ -1,0 +1,37 @@
+[
+    {
+        "name": "ZeroHedge",
+        "url": "http://feeds.feedburner.com/zerohedge/feed",
+        "active": true
+    },
+    {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/feed/",
+        "active": true
+    },
+    {
+        "name": "Ars Technica",
+        "url": "http://feeds.arstechnica.com/arstechnica/index",
+        "active": true
+    },
+    {
+        "name": "Wired",
+        "url": "https://www.wired.com/feed/rss",
+        "active": true
+    },
+    {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml",
+        "active": false
+    },
+    {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/rss",
+        "active": true
+    },
+    {
+        "name": "AEO Insights",
+        "url": "https://example.com/aeo/feed",
+        "active": false
+    }
+]

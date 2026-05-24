@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #050508;
+  --bg-secondary: #0c0c1c;
+  --accent-blue: #5566ff;
+  --accent-cyan: #00ffcc;
+  --accent-purple: #7755ff;
+  --accent-orange: #ffaa00;
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.glass-card {
+  background: rgba(12, 12, 28, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+}
+
+.neon-border {
+  border: 1px solid var(--accent-cyan);
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);
+}
+
+.plasma-glow {
+  filter: drop-shadow(0 0 10px var(--accent-purple));
+}
